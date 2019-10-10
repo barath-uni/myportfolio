@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:portfolio/AboutMe.dart';
 import 'package:portfolio/LowerFold.dart';
 import 'package:portfolio/UpperFold.dart';
+import 'dart:js' as js;
 
 void main()
 {
@@ -40,8 +41,28 @@ class _HomePageState extends State<HomePage> {
                           Center(child: Text("baradwaj.co | Minimalist!", style: TextStyle(color: Colors.white, fontSize: 20, fontStyle: FontStyle.italic, fontFamily: 'Pacifico'),),),
                           Container(width: 100,),
                           Center(child: Row(children: <Widget>[
-                            Icon(Icons.account_circle, color: Colors.white,size: 22,),
-                            Icon(Icons.people_outline, color: Colors.white,size: 22,)
+                            GestureDetector(
+                              child: Image.asset(
+                                "images/facebook.png", width: 40, height: 40,
+                              ),
+                              onTap: (){
+                                js.context.callMethod("open",["https://www.facebook.com/"]);
+                              },
+                            ),
+                            Container(width: 10.0,),
+                            GestureDetector(
+                              child: Image.asset("images/twitter.png", width: 30, height: 30,),
+                              onTap: (){
+                                js.context.callMethod("open",["https://twitter.com/DiputsC"]);
+                              },
+                            ),
+                            Container(width: 10.0,),
+                            GestureDetector(
+                              child: Image.asset("images/youtube.png", width: 30, height: 30,),
+                              onTap: (){
+                                js.context.callMethod("open",["https://www.youtube.com/channel/UCywpR6E1lpk66CHhGziz8Bg"]);
+                              },
+                            )
                           ],),)
                         ],
                       ),

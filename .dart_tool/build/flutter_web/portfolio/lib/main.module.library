@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["flutter|lib/material.dart","portfolio|lib/AboutMe.dart","portfolio|lib/LowerFold.dart","portfolio|lib/UpperFold.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":true}
