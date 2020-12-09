@@ -1,12 +1,16 @@
-# portfolio
 
-A new Flutter application.
+This is my Portfolio written in DART and hosted with the Peanut framework on GITHUB!
+
+To access my Portfolio - https://barathmonk.github.io/myportfolio/#/
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+The Project was written from scratch and i have documented the journey in my youtube channel
+Links to the videos
 
-A few resources to get you started if this is your first Flutter project:
+PART 1 - https://www.youtube.com/watch?v=TfXCW5Obonw
+PART 2 - https://www.youtube.com/watch?v=LXUi8iyG-jU
+
 
 - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
